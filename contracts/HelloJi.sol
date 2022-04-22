@@ -1,11 +1,10 @@
 pragma solidity >=0.7.3;
 
-contract MyContract{
+contract HelloJi{
    //net money on blockchain
    uint private netFundsOnBlockchain = 0;
    uint private thresholdForFunds = 10000;      //max limit for the netFundsOnBlockchain on blockchain
    constructor() public{
-
    }
    function varifyLender() private pure returns(bool){
       return true;
